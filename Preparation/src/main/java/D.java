@@ -14,7 +14,7 @@ public class D {
 		twoSum(ip, 9);*/
 		
 		int a = 100000000;
-		String[] s = "21010010102".split("1", 0);
+		String[] s = "21010010102".split("0", 2);
 		System.out.println(s.length);
 		for (String t : s) {
 			System.out.println(t);
@@ -34,6 +34,7 @@ public class D {
 
 	}
 
+	//2 4 6 8   --12
 	/*public static int[] twoSum(int[] nums, int target) {
 		Map<Integer, Integer> map = new HashMap<>();
 		int n = nums.length;
